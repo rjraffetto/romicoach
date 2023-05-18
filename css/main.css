@@ -1,0 +1,134 @@
+/* Imports y paleta de colores */
+
+/* Variables */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Tipografía */
+p {
+  font-size: small;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  text-indent: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.heading-primary {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* Espacios y alineación */
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 80%;
+}
+
+/* Header */
+header .bg-body-tertiary {
+  padding: 10px;
+  border: 15px;
+  background-color: #008080;
+  background-size: cover;
+}
+
+header #burger {
+  justify-content: start;
+  text-align: left;
+}
+
+/* Section - Botones */
+section .boton-container {
+  display: flex;
+  justify-content: center;
+}
+
+section .boton {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  background-color: #ff7f50;
+  color: #ffc0cb;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+section .boton:hover {
+  background-color: #008080;
+}
+
+/* Section - Formularios */
+section .form-group {
+  margin: 10px;
+}
+
+/* Section - Grid */
+section .grid-container {
+  display: grid;
+  background-color: #f7d8e5;
+  text-align: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto auto auto;
+}
+
+section .grid-container .ser_tit {
+  grid-column: 1/-1;
+  background-color: white;
+}
+
+section .grid-container div {
+  background-color: #ffc0cb;
+  text-align: center;
+  border: 2px;
+  padding: 10px;
+  margin: 7px;
+}
+
+@media screen and (max-width: 767px) {
+  section .grid-container {
+    grid-template-columns: auto;
+  }
+
+  section .grid-container .ser_tit {
+    grid-column: 1/-1;
+  }
+}
+
+/* Footer */
+footer .container {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+footer .container .col-md-6 {
+  text-align: left;
+}
+
+footer .container .col-md-6 .link {
+  text-decoration: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+git pull origin main --allow-unrelated-histories
+
